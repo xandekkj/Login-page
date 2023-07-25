@@ -22,6 +22,10 @@ p {
     left: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topHeader {
     font-size: 30px;
     position: relative;
