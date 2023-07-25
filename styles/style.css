@@ -21,3 +21,79 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     left: 5px;
 }
+
+.topHeader {
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    font-family: Comic Sans MS;
+}
+
+.formBox {
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    opacity: 90%;
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(49, 48, 48);
+}
+
+i {
+    position: relative;
+    top: -29px;
+    right: 20px;
+}
+
+#submitButton {
+    height: 40px;
+    width: 109%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-family: Comic Sans MS;
+    background-color: black;
+}
+
+#submitButton:hover {
+    background-color: orangered;
+}
+
+#forgotPW {
+    position: relative;
+    color: orangered;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 35px;
+    width: 65%;
+    padding: 10px;
+}
+
+#forgotPW:hover {
+    color: red;
+}
